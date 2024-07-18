@@ -29,20 +29,20 @@
                 <img src="./imgs/logo.png" alt="logo" class="logo">
              </a>
              <!-- navbar -->
-              <div class="navbar">
+              <!-- <div class="navbar">
                 <a href="#home" class="nav-link">الرئيسية</a>
                 <a href="#about" class="nav-link">من نحن</a>
                 <a href="#products" class="nav-link">اللائحة</a>
                 <a href="#home" class="nav-link">تواصل معنا</a>
-              </div>
+              </div> -->
               <!-- nav icons -->
                <div class="nav-icons">
                 <a href="#"><i class='bx bx-user'></i></a>
-                <div class="menu-icon">
+                <!-- <div class="menu-icon">
                     <div class="line1"></div>
                     <div class="line2"></div>
                     <div class="line3"></div>
-                </div>
+                </div> -->
                </div>
         </div>
     </header>
@@ -53,10 +53,38 @@
                 من حبوب البن
             </h1>
             <p>قم بتحضير أو طلب مشروبك المثالي بناءً على حالتك المزاجية في أي مكان وفي أي وقت</p>
-            <a href="#" class="btn">
-                <span>أطلب الآن</span>
-                <i class='bx bx-up-arrow-alt'></i>
-            </a>
+            <div class="linkss">
+                <a href="#" class="btn" id="open-popup">
+                    <span>أطلب الآن</span>
+                    <i class='bx bx-up-arrow-alt'></i>
+                </a>
+                <a href="https://www.tiktok.com/@_f5m_sa?_t=8nRmX0BhvRB&_r=1"><i class="bx bxl-tiktok"></i></a>
+                <a href="https://www.snapchat.com/add/f5m.48?invite_id=SZ--hamd&locale=ar_SA%40calendar%3Dgregorian&share_id=hW2ypsreQNS5ZRqTEyAftA&xp_id=1&sid=c5e121a5145c463fb9617d19623e830a"><i class="bx bxl-snapchat"></i></a>
+                <a href="https://www.instagram.com/_f5m_sa?igsh=Y21oenE0c2x5ZnB3&utm_source=qr"><i class="bx bxl-instagram"></i></a>
+            </div>
+            <div class="popup" id="popup">
+                <div class="overlay"></div>
+                <div class="popup-content">
+                    <h2>للطلب</h2>
+                    <p>للطلب أدخل : إسمك الكامل ، رقم هاتفك بالإنجليزي و طلباتك لتصلك في أسرع وقت ممكن</p>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="اسمك">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="بريدك الالكتروني">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="" placeholder="طلباتك هنا"></textarea>
+                        </div>
+                        <div class="controls">
+                            <button class="close-btn">حذف</button>
+                            <button class="submit-btn" type="submit">أرسل</button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
         </div>
         <!-- Home Image -->
          <img src="./imgs/hero2.png" alt="" class="home_img">
@@ -64,15 +92,15 @@
 
    <!-- About Section -->
     <section class="about container" id="about">
-        <div class="about-img">
-            <img src="./imgs/about.jpg" alt="">
-        </div>
         <div class="about-text">
             <h2>من نحن</h2>
             <p>الرؤية الخاصة بنا من خلال هذا المشروع</p>
             <p>الهدف الخاص بنا من خلال هذا المشروع</p>
             <p>الجودة الخاصة بنا من خلال هذا المشروع</p>
             
+        </div>
+        <div class="about-img">
+            <img src="./imgs/about.jpg" alt="">
         </div>
     </section>
 
@@ -208,9 +236,9 @@
             </div>
             <div class="contact-info">
                 <h3>معلومات الاتصال</h3>
-                <p><i class="fas fa-phone"></i><span class="one">+1 123 456 789</span></p>
-                <p><i class="fas fa-envelope"></i>info@example.com</p>
-                <p><i class="fas fa-map-marker-alt"></i>123 Street, City, Country</p>
+                <p><i class="fas fa-phone"></i><span class="one">+966 53 837 1230</span></p>
+                <p><i class="fas fa-envelope"></i>fkhmalbn@gmail.com</p>
+                <p><a href="https://g.page/r/CarQdS7POkAkEBM/review"><i class="fas fa-map-marker-alt"></i>Taymaa, Tayma 45411, Arabie saoudite</a></p>
             </div>
         </div>
         </div>
@@ -221,9 +249,16 @@
         <span>تواصل معنا</span>
     </div>
 
+    <div class="fixed-button">
+        <a href="#" class="btn" id="open-popup2">
+            <span>أطلب الآن</span>
+        </a>
+    </div>
+
     <section class="footer">
         <div class="container">
-            <div><a href="#" class="logo">
+            <div>
+                <a href="#" class="logo">
                 <img src="./imgs/logo2.png" alt="logo">
             </a>
             </div>
@@ -231,7 +266,6 @@
                 <a href="https://www.tiktok.com/@_f5m_sa?_t=8nRmX0BhvRB&_r=1"><i class="bx bxl-tiktok"></i></a>
                 <a href="https://www.snapchat.com/add/f5m.48?invite_id=SZ--hamd&locale=ar_SA%40calendar%3Dgregorian&share_id=hW2ypsreQNS5ZRqTEyAftA&xp_id=1&sid=c5e121a5145c463fb9617d19623e830a"><i class="bx bxl-snapchat"></i></a>
                 <a href="https://www.instagram.com/_f5m_sa?igsh=Y21oenE0c2x5ZnB3&utm_source=qr"><i class="bx bxl-instagram"></i></a>
-                <!-- https://www.instagram.com/_f5m_sa?igsh=Y21oenE0c2x5ZnB3&utm_source=qr -->
             </div>
             <p class="copyright">Copyright &#169; 2024<img src="./imgs/logo2.png" class="logo" alt=""></p>
         </div>
