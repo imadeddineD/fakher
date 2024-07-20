@@ -1,9 +1,9 @@
 :root {
-    --main-color : #8d6db0;
+    --main-color : #f9f6f2;
     --second-color : rgb(93, 0, 96);
-    --text-color : #060413;
+    --text-color : #fff;
     --container-color : #f8e4be;
-    --bg-color : #f9f6f2;
+    --bg-color : #8d6db0;
     --text-alter-color : #94908e;
     --poppins-font: "Poppins" , sans-serif;
     --font-family-2: "Playfair Display", serif
@@ -56,7 +56,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--text-color);
+    background: #333;
     padding: 0px 25px;
     border-radius: 2rem;
 }
@@ -136,14 +136,17 @@ header {
 .btn .bx {
     font-size: 20px;
     background: var(--second-color);
-    color: var(--bg-color);
+    color: var(--main-color);
     padding: 5px;
     border-radius: 50%;
     transform: rotate(-60deg);
 }
+/* .product-content */
 
-.home-img {
+.home_img {
     max-width: 500px;
+    border-radius: 40px;
+    margin-top: 30px;
 }
 
 .about {
@@ -230,7 +233,7 @@ header {
 }
 
 .product-box h2  {
-    color: var(--main-color);
+    color: var(--bg-color);
     font-size: 2rem;
     font-size: 500;
 }
@@ -242,9 +245,10 @@ header {
     margin-top: 2rem;
     width: 100%;
 }
+/* .contact-form */
 
 .product-info span {
-    color: var(--main-color);
+    color: var(--bg-color);
     font-weight: 500;
 }
 
@@ -290,7 +294,7 @@ header {
 .contact .contact-form h3 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #333;
+    color: var(--main-color);
 }
 .form-group {
     margin-bottom: 20px;
@@ -311,8 +315,9 @@ textarea:focus {
 button {
     display: inline-block;
     padding: 12px 24px;
-    background-color: var(--main-color);
+    background-color: var(--second-color);
     color: #fff;
+    border-radius: 5px;
     border: none;
     cursor: pointer;
     transition: 0.3s ease;
@@ -327,17 +332,21 @@ button:hover {
 .contact-info h3 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #333;
+    color: var(--main-color);
 } 
 .contact-info .one {
     direction: ltr;
 }  
 .contact-info p {
     margin-bottom: 10px;
-    color: #555;
+    color: var(--main-color);
+}
+.contact-info a {
+    margin-bottom: 10px;
+    color: var(--main-color);
 }
 .contact-info i {
-    color: #b106b1;
+    color: var(--text-color);
     margin-right: 10px;
 }
 @media (max-width:768px) {
@@ -415,7 +424,7 @@ button:hover {
 }
 
 .footer {
-    background-color: var(--main-color);
+    background-color: #333;
     padding: 20px 10px;
 }
 
@@ -658,7 +667,7 @@ button:hover {
 .popup .popup-content h2 {
     margin: 10px 0px;
     font-size: 25px;
-    color: var(--main-color);
+    color: var(--bg-color);
     text-align: center;   
 }
 
@@ -686,11 +695,11 @@ button:hover {
 
 .popup .popup-content .controls .close-btn {
     background: transparent;
-    color: var(--main-color);
+    color: var(--bg-color);
 }
 
 .popup .popup-content .controls .submit-btn {
-    background: var(--main-color);
+    background: var(--bg-color);
     color: #fff;
 }
 
